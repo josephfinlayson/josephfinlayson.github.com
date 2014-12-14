@@ -18,7 +18,6 @@ angular.module('x', ['ui.router', 'dd.fake-typer'])
             .state('me', {
                 url: '/me',
                 templateUrl: 'views/me.html',
-                contoller: 'meCtrl as meCtrl'
             })
             .state('contact', {
                 url: '/contact',

@@ -9,5 +9,4 @@ Use `gulp serve`
 
 Use `rm -rf out && gulp dist --prod && gulp deploy`
 
-Deployment with https://github.com/josephfinlayson/dd-deploy
 

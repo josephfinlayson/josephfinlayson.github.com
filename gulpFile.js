@@ -171,7 +171,7 @@ var deploy = require('dd-deploy');
 gulp.task('deploy', function (cb) {
   return deploy({
     dirSrc: 'out',
-    push: false,
+    push: true,
     verbose: true
   }, cb)
 });

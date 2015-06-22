@@ -194,18 +194,19 @@
     });
 
     /* */
-
-    /* */
     // load all of the dependencies asynchronously.
     $script('bower_components/angular/angular.min.js', function() {
         $script([
             'bower_components/angular-ui-router/release/angular-ui-router.min.js',
-            'script.min.js'
+            'js/dd-fake-typer.js',
+            'js/app.js'
         ], function() {
             // when all is done, execute bootstrap angular application
             angular.bootstrap(document, ['x']);
         });
     });
+    /* */
+
     /* */
     </script>
     <!-- /js -->

@@ -9,4 +9,4 @@ Use `gulp serve`
 
 Use `rm -rf out && gulp dist --prod && gulp deploy`
 
-
+If it throws an error e.g. Already on master, then remove the offending line. Also, fix me!

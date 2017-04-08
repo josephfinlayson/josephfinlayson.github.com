@@ -12,7 +12,9 @@
   background-size: cover;
   background-position: top;
 
-
+  .unemphasized {
+    color: $black
+  }
 
   // me__list-container
   &__list-container{

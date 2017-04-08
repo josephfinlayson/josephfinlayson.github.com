@@ -46,6 +46,8 @@
     <!-- css -->
     <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
     <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css" />
+
     <!-- /css -->
 
 </head>
@@ -189,24 +191,23 @@
             headElement.appendChild(linkElement);
         }
 
-
+        cssLinkInjector('css/modern.css')
         cssLinkInjector('css/modern.min.css')
     });
+
+    /* */
 
     /* */
     // load all of the dependencies asynchronously.
     $script('bower_components/angular/angular.min.js', function() {
         $script([
             'bower_components/angular-ui-router/release/angular-ui-router.min.js',
-            'js/dd-fake-typer.js',
-            'js/app.js'
+            'script.min.js'
         ], function() {
             // when all is done, execute bootstrap angular application
             angular.bootstrap(document, ['x']);
         });
     });
-    /* */
-
     /* */
     </script>
     <!-- /js -->
